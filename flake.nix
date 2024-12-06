@@ -2,7 +2,7 @@
   description = "Patched version of Caddy";
 
   # Nixpkgs / NixOS version to use.
-  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-stable";
 
   outputs =
     { self, nixpkgs }:
